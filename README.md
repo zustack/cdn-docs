@@ -16,11 +16,6 @@ curl -X POST "https://cdn.zustack.com/api/files/generate/signurl/{APP_ID}/{SECON
   -H "Authorization: Bearer {JWT}" \
 ```
 
-```bash
-curl -X POST "https://cdn.zustack.com/api/files/generate/signurl/{APP_ID}/{SECONDS}" \
-  -H "Authorization: Bearer {JWT}" \
-```
-
 This request will return a signed URL that looks like this:
 
 ```json
@@ -57,7 +52,7 @@ After making the request, it will return the following:
 - `JWT`: The JWT signed with your API key. 
 
 ```bash
-curl -X POST "https://domain.com/api/files/{APP_ID}" \
+curl -X POST "https://cdn.zustack.com/api/files/{APP_ID}" \
   -H "Authorization: Bearer {JWT}" \
   -H "Content-Type: multipart/form-data" \
   -F "access=public" \
