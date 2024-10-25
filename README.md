@@ -1,5 +1,31 @@
 # Docs Zustack CDN
 
+# Performance Test
+
+
+See our global CDN in action!
+
+```bash
+https://tools.keycdn.com/performance?url=https://assets.zustack.com/public/601feaf4-2e90-430d-8823-48076c31d9d1/a5273bbb-3862-43a4-9388-367b60cb0d4c/1a3f0ca3-af43-4d75-aa95-95e76a9fc9d7.webp
+```
+
+# Image Optimizer
+
+
+488 KiB
+
+```bash
+https://assets.zustack.com/public/601feaf4-2e90-430d-8823-48076c31d9d1/a5273bbb-3862-43a4-9388-367b60cb0d4c/33aabece-0050-4cd0-bdd7-d32bb6ec9b64.jpg
+```
+
+
+62 KiB
+
+```bash
+https://assets.zustack.com/public/601feaf4-2e90-430d-8823-48076c31d9d1/a5273bbb-3862-43a4-9388-367b60cb0d4c/1a3f0ca3-af43-4d75-aa95-95e76a9fc9d7.webp
+```
+
+
 # Getting started
 
 To obtain the API key and App ID, create an app if you haven’t done so yet. 
